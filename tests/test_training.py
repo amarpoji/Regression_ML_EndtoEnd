@@ -8,8 +8,8 @@ from src.training_pipeline.tune import tune_model
 
 
 # Assumes you already ran feature engineering so the processed CSVs exist.
-TRAIN_PATH = Path("data/processed/feature_engineered_train.csv")
-EVAL_PATH = Path("data/processed/feature_engineered_eval.csv")
+TRAIN_PATH = Path(r"C:\Users\USER\Downloads\machine learning\project\Regression_ML_EndtoEnd\data\processed\feature_enginered_train.csv")
+EVAL_PATH = Path(r"C:\Users\USER\Downloads\machine learning\project\Regression_ML_EndtoEnd\data\processed\feature_engineered_eval.csv")
 
 # Ensuring we have the same keys in metrics dict.
 def _assert_metrics(m):

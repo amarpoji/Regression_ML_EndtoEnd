@@ -26,15 +26,38 @@ PROCESSED_DIR = Path("data/processed")
 PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
 # Manual fixes for known mismatches (normalized form)
+
 CITY_MAPPING = {
-    "las vegas-henderson-paradise": "las vegas-henderson-north las vegas",
-    "denver-aurora-lakewood": "denver-aurora-centennial",
-    "houston-the woodlands-sugar land": "houston-pasadena-the woodlands",
-    "austin-round rock-georgetown": "austin-round rock-san marcos",
-    "miami-fort lauderdale-pompano beach": "miami-fort lauderdale-west palm beach",
-    "san francisco-oakland-berkeley": "san francisco-oakland-fremont",
-    "dc_metro": "washington-arlington-alexandria",
-    "atlanta-sandy springs-alpharetta": "atlanta-sandy springs-roswell",
+"Atlanta-Sandy Springs-Alpharetta" : "Atlanta-Sandy Springs-Roswell, GA",
+"Pittsburgh" : "Pittsburgh, PA",
+"Boston-Cambridge-Newton" : "Boston-Cambridge-Newton, MA-NH",
+"Tampa-St. Petersburg-Clearwater" : "Tampa-St. Petersburg-Clearwater, FL",
+"Baltimore-Columbia-Towson" : "Baltimore-Columbia-Towson, MD",
+"Portland-Vancouver-Hillsboro" : "Portland-Vancouver-Hillsboro, OR-WA",
+"Philadelphia-Camden-Wilmington" : "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+"New York-Newark-Jersey City" : "New York-Newark-Jersey City, NY-NJ",
+"Chicago-Naperville-Elgin" : "Chicago-Naperville-Elgin, IL-IN",
+"Orlando-Kissimmee-Sanford" : "Orlando-Kissimmee-Sanford, FL",
+"Seattle-Tacoma-Bellevue" : "Seattle-Tacoma-Bellevue, WA",
+"San Francisco-Oakland-Berkeley" : "San Francisco-Oakland-Fremont, CA",
+"San Diego-Chula Vista-Carlsbad" : "San Diego-Chula Vista-Carlsbad, CA",
+"Austin-Round Rock-Georgetown" : "Austin-Round Rock-San Marcos, TX",
+"St. Louis" : "St. Louis, MO-IL",
+"Sacramento-Roseville-Folsom" : "Sacramento-Roseville-Folsom, CA",
+"Phoenix-Mesa-Chandler" : "Phoenix-Mesa-Chandler, AZ",
+"Riverside-San Bernardino-Ontario" : "Riverside-San Bernardino-Ontario, CA",
+"San Antonio-New Braunfels" : "San Antonio-New Braunfels, TX",
+"Detroit-Warren-Dearborn" : "Detroit-Warren-Dearborn, MI",
+"Cincinnati" : "Cincinnati, OH-KY-IN",
+"Houston-The Woodlands-Sugar Land" : "Houston-Pasadena-The Woodlands, TX",
+"Charlotte-Concord-Gastonia" : "Charlotte-Concord-Gastonia, NC-SC",
+"Denver-Aurora-Lakewood" : "Denver-Aurora-Centennial, CO",
+"Los Angeles-Long Beach-Anaheim" : "Los Angeles-Long Beach-Anaheim, CA",
+"DC_Metro" : "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+"Dallas-Fort Worth-Arlington" : "Dallas-Fort Worth-Arlington, TX",
+"Minneapolis-St. Paul-Bloomington" : "Minneapolis-St. Paul-Bloomington, MN-WI",
+"Las Vegas-Henderson-Paradise" : "Las Vegas-Henderson-North Las Vegas, NV",
+"Miami-Fort Lauderdale-Pompano Beach" : "Miami-Fort Lauderdale-West Palm Beach, FL"
 }
 
 
